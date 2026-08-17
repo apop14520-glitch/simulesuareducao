@@ -1,0 +1,8 @@
+[build]
+  command = "npx vite build --config netlify.vite.config.ts"
+  publish = "netlify-dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
