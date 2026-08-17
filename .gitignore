@@ -36,6 +36,8 @@ yarn-error.log*
 
 /dist/
 /netlify-dist/
+/cloudflare-dist/
 /.wrangler/
 /outputs/
 /work/
+
