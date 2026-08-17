@@ -1,15 +1,15 @@
-# Ana Letícia · Consultora GRAM Energia
+# Ana LetÃ­cia Â· Consultora GRAM Energia
 
-Landing page para apresentação do serviço de energia por assinatura da GRAM Energia, com simulador de economia e solicitação de atendimento pelo WhatsApp.
+Landing page para apresentaÃ§Ã£o do serviÃ§o de energia por assinatura da GRAM Energia, com simulador de economia e solicitaÃ§Ã£o de atendimento pelo WhatsApp.
 
 ## Recursos
 
-- página responsiva para celular e computador;
-- simulador indicativo com desconto padrão de 8,5%;
-- formulário organizado para atendimento pelo WhatsApp;
-- galeria das usinas de geração renovável em Rondônia;
+- pÃ¡gina responsiva para celular e computador;
+- simulador indicativo com desconto padrÃ£o de 8,5%;
+- formulÃ¡rio organizado para atendimento pelo WhatsApp;
+- galeria das usinas de geraÃ§Ã£o renovÃ¡vel em RondÃ´nia;
 - favicon e identidade visual inspirados nas cores da GRAM Energia;
-- configuração pronta para publicação na Netlify.
+- configuraÃ§Ã£o pronta para publicaÃ§Ã£o na Netlify.
 
 ## Executar localmente
 
@@ -20,20 +20,32 @@ npm install
 npm run dev
 ```
 
-## Gerar a versão da Netlify
+## Gerar a versÃ£o da Netlify
 
 ```bash
 npm install
 npm run build:netlify
 ```
 
-Os arquivos finais serão criados na pasta `netlify-dist`.
+Os arquivos finais serÃ£o criados na pasta `netlify-dist`.
 
 ## Publicar pela Netlify
 
-O arquivo `netlify.toml` já contém o comando de compilação e a pasta de publicação. Ao importar este repositório na Netlify, use:
+O arquivo `netlify.toml` jÃ¡ contÃ©m o comando de compilaÃ§Ã£o e a pasta de publicaÃ§Ã£o. Ao importar este repositÃ³rio na Netlify, use:
 
 - Build command: `npm run build:netlify`
 - Publish directory: `netlify-dist`
 
-O site é estático e não armazena as informações preenchidas pelo visitante. O envio dos dados acontece somente quando a pessoa escolhe continuar para o WhatsApp.
+O site Ã© estÃ¡tico e nÃ£o armazena as informaÃ§Ãµes preenchidas pelo visitante. O envio dos dados acontece somente quando a pessoa escolhe continuar para o WhatsApp.
+
+## Publicar pelo Cloudflare Pages
+
+Ao conectar este repositÃ³rio ao Cloudflare Pages, use:
+
+- Framework preset: `Vite`
+- Build command: `npm run build:cloudflare`
+- Build output directory: `cloudflare-dist`
+- Node.js: `22.13.0` ou mais recente
+
+O arquivo `wrangler.toml` informa a pasta de saÃ­da para o Cloudflare Pages. A versÃ£o Cloudflare Ã© estÃ¡tica e mantÃ©m o simulador, as imagens e o encaminhamento para o WhatsApp sem depender de servidor.
+
