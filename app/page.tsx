@@ -241,9 +241,12 @@ export default function Home() {
       </section>
 
       <footer>
-        <a className="footer-brand" href="#inicio"><span>G</span><div><strong>ANA LETÍCIA</strong><small>CONSULTORA GRAM ENERGIA</small></div></a>
-        <div className="footer-links"><a href="#como-funciona">Como funciona</a><a href="#usinas">Nossas usinas</a><a href="#economia">Simulador</a></div>
-        <div className="footer-contact"><small>ATENDIMENTO</small><a href="#economia">Simular economia ↓</a><a href="https://www.gramenergia.com/" target="_blank" rel="noreferrer">gramenergia.com ↗</a></div>
+        <div className="footer-brand-block">
+          <a className="footer-brand" href="#inicio"><span>G</span><div><strong>ANA LETÍCIA</strong><small>CONSULTORA GRAM ENERGIA</small></div></a>
+          <p>Energia renovável, economia e atendimento próximo para residências e empresas de Rondônia.</p>
+        </div>
+        <nav className="footer-links" aria-label="Navegação do rodapé"><small>NAVEGAÇÃO</small><a href="#como-funciona">Como funciona <span>→</span></a><a href="#usinas">Nossas usinas <span>→</span></a><a href="#economia">Simule sua economia <span>→</span></a></nav>
+        <div className="footer-contact"><small>ATENDIMENTO</small><a href="#economia">Solicitar uma simulação <span>↓</span></a><a href="https://www.gramenergia.com/" target="_blank" rel="noreferrer">Visitar a GRAM Energia <span>↗</span></a></div>
         <div className="footer-bottom"><span>© 2026 Ana Letícia · Consultora GRAM Energia</span><span>Energia acessível e sustentável para todos.</span></div>
       </footer>
 

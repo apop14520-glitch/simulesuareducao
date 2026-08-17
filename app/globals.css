@@ -39,6 +39,14 @@ input[type="number"]{-moz-appearance:textfield;appearance:textfield}input[type="
 /* O campo da fatura já possui sua própria linha divisória. */
 .estimate{border-top:0}
 
+/* Rodapé ampliado e com hierarquia visual mais clara */
+footer{position:relative;overflow:hidden;padding-top:78px;padding-bottom:32px;grid-template-columns:1.35fr .8fr 1fr;gap:clamp(42px,6vw,90px);background:linear-gradient(135deg,#041d33 0%,#073d68 100%);border-top:4px solid var(--green)}
+footer:before{content:"G";position:absolute;right:-35px;bottom:-125px;font-size:360px;line-height:1;font-weight:800;color:rgba(255,255,255,.025);pointer-events:none}
+.footer-brand-block{position:relative;z-index:1;max-width:430px}.footer-brand{display:flex;align-items:center;gap:18px;width:max-content}.footer-brand>span{display:grid;place-items:center;width:58px;height:58px;border-radius:16px;background:linear-gradient(135deg,#0b64a1,var(--green));color:#fff;font-size:30px;font-weight:800;box-shadow:0 12px 30px rgba(0,0,0,.2)}.footer-brand div{display:flex;flex-direction:column;gap:3px}.footer-brand strong{font-size:18px;letter-spacing:.06em}.footer-brand small{font-size:14px;letter-spacing:.08em;color:#a9c6d2}.footer-brand-block p{font-size:14px;line-height:1.75;color:#a9c0ca;margin:24px 0 0;max-width:390px}
+.footer-links,.footer-contact{position:relative;z-index:1;gap:16px;font-size:14px}.footer-links small,.footer-contact small{font-size:14px;line-height:1.4;letter-spacing:.12em;font-weight:800;color:#70db76;margin-bottom:6px}.footer-links a,.footer-contact a{display:flex;align-items:center;justify-content:space-between;gap:18px;min-height:28px;color:#e2edf0;transition:color .2s,transform .2s}.footer-links a:hover,.footer-contact a:hover{color:#79df73;transform:translateX(4px)}.footer-links a span,.footer-contact a span{color:#71d978;font-size:16px}
+.footer-bottom{position:relative;z-index:1;padding-top:26px;margin-top:28px;border-top:1px solid rgba(194,222,230,.2);font-size:14px;line-height:1.6;color:#93adb8}
+@media(max-width:800px){footer{padding-top:58px;grid-template-columns:1fr;gap:42px}.footer-brand-block{max-width:100%}.footer-links,.footer-contact{max-width:420px}.footer-bottom{gap:12px}.footer-brand strong{font-size:17px}.footer-brand small,.footer-brand-block p,.footer-links,.footer-contact,.footer-links small,.footer-contact small,.footer-bottom{font-size:14px}}
+
 /* Texto do cabeçalho do simulador mais legível */
 .discount-badge span{font-size:14px;line-height:1.35;letter-spacing:.11em}.discount-badge small{font-size:14px;line-height:1.5;margin-top:9px;color:#d6e6ec}.discount-badge{column-gap:28px}
 @media(max-width:600px){.discount-badge span{font-size:12px}.discount-badge small{font-size:12px}}
