@@ -38,14 +38,13 @@ O arquivo `netlify.toml` jÃ¡ contÃ©m o comando de compilaÃ§Ã£o e a pasta
 
 O site Ã© estÃ¡tico e nÃ£o armazena as informaÃ§Ãµes preenchidas pelo visitante. O envio dos dados acontece somente quando a pessoa escolhe continuar para o WhatsApp.
 
-## Publicar pelo Cloudflare Pages
+## Publicar pelo Cloudflare Workers
 
-Ao conectar este repositÃ³rio ao Cloudflare Pages, use:
+Ao conectar este repositÃ³rio pela tela **Configure seu Worker**, use:
 
-- Framework preset: `Vite`
 - Build command: `npm run build:cloudflare`
-- Build output directory: `cloudflare-dist`
+- Deploy command: `npx wrangler deploy`
 - Node.js: `22.13.0` ou mais recente
 
-O arquivo `wrangler.toml` informa a pasta de saÃ­da para o Cloudflare Pages. A versÃ£o Cloudflare Ã© estÃ¡tica e mantÃ©m o simulador, as imagens e o encaminhamento para o WhatsApp sem depender de servidor.
+O arquivo `wrangler.toml` informa que os arquivos estÃ¡ticos de `cloudflare-dist` devem ser publicados pelo Worker. O `cloudflare-worker.ts` encaminha as requisiÃ§Ãµes para esses arquivos, e a configuraÃ§Ã£o ativa o fallback de aplicaÃ§Ã£o de pÃ¡gina Ãºnica para preservar a navegaÃ§Ã£o. O simulador, as imagens e o encaminhamento para o WhatsApp nÃ£o dependem de servidor.
 
