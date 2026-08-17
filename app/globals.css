@@ -36,6 +36,9 @@ body{font-family:var(--font-sans),Arial,sans-serif;font-weight:400;letter-spacin
 input[type="number"]{-moz-appearance:textfield;appearance:textfield}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}.money-input,.consumption-input{justify-content:flex-start;gap:12px}.money-input input,.consumption-input input{width:auto;max-width:280px;flex:0 1 280px;padding-left:0;padding-right:0}.money-input>span,.consumption-input>span{flex:0 0 auto}.range{width:100%;display:block}.calculator-card{min-height:0}.money-input{margin-bottom:6px}.estimate{margin-top:28px}
 @media(max-width:600px){.money-input input,.consumption-input input{max-width:220px;flex-basis:220px}}
 
+/* O campo da fatura já possui sua própria linha divisória. */
+.estimate{border-top:0}
+
 /* Texto do cabeçalho do simulador mais legível */
 .discount-badge span{font-size:14px;line-height:1.35;letter-spacing:.11em}.discount-badge small{font-size:14px;line-height:1.5;margin-top:9px;color:#d6e6ec}.discount-badge{column-gap:28px}
 @media(max-width:600px){.discount-badge span{font-size:12px}.discount-badge small{font-size:12px}}

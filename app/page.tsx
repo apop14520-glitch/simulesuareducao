@@ -200,9 +200,6 @@ export default function Home() {
             <label htmlFor="consumption">Consumo médio mensal</label>
             <div className="consumption-input"><input id="consumption" type="number" min="50" max="10000" step="10" value={consumption} onChange={(e) => setConsumption(Math.max(0, Number(e.target.value)))} /><span>kWh</span></div>
             <input className="range discount-range" style={{ background: `linear-gradient(90deg, var(--green) 0 ${rangeProgress}%, #d7dfda ${rangeProgress}% 100%)` }} aria-label="Consumo mensal em kWh" type="range" min="50" max="3000" step="10" value={Math.min(consumption, 3000)} onChange={(e) => setConsumption(Number(e.target.value))} />
-            <div className="consumption-options" aria-label="Opções rápidas de consumo">
-              {[250, 500, 750, 1000, 1500, 2000].map((value) => <button type="button" className={consumption === value ? "active" : ""} onClick={() => setConsumption(value)} key={value}>{value === 2000 ? "2.000+" : value.toLocaleString("pt-BR")}</button>)}
-            </div>
             <label htmlFor="bill">Valor médio da sua conta</label>
             <div className="money-input"><span>R$</span><input id="bill" type="number" min="100" max="50000" step="50" value={bill} onChange={(e) => updateBill(e.target.value)} onBlur={() => bill === "" && setBill(0)} /></div>
             {!estimate.eligible && <div className="eligibility-note"><span>VALOR MÍNIMO</span><p>O desconto está disponível para faturas a partir de R$ 300.</p></div>}
