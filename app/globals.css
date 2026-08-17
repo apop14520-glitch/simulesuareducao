@@ -20,7 +20,7 @@ footer{background:#061f36;color:#d8e5e8;padding:65px clamp(24px,8.5vw,140px) 25p
 body{font-size:17px}.site-header{height:96px}.nav{font-size:13px}.hero-copy{font-size:19px;max-width:650px}.section{padding-top:120px;padding-bottom:120px}.intro-copy p,.plants-heading>p,.about-copy>p,.calculator-copy>p{font-size:17px}.steps h3{font-size:21px}.steps p{font-size:14px}.plant-label h3{font-size:23px}.plant-label p{font-size:12px}.button{font-size:11px;padding:19px 24px}.calculator-grid{grid-template-columns:.9fr 1.1fr;gap:8vw}.calculator-card{position:relative;padding:52px}.calculator-card>label{display:block;font-size:11px;margin-top:28px}.calculator-card>label:first-of-type{margin-top:0}.discount-badge{background:linear-gradient(120deg,var(--navy),var(--blue));color:#fff;padding:24px 26px;margin:-52px -52px 38px;display:grid;grid-template-columns:1fr auto;align-items:center}.discount-badge span{font-size:9px;letter-spacing:.16em;font-weight:800}.discount-badge strong{grid-row:1/3;grid-column:2;font-family:var(--font-serif);font-size:46px;font-weight:500;color:#7ce16f}.discount-badge small{font-size:10px;color:#bcd0db;margin-top:5px}.consumption-input{display:flex;align-items:end;border-bottom:1px solid #9eaaa7;padding:8px 0 10px;margin-bottom:18px}.consumption-input input{border:0;outline:0;background:transparent;width:100%;font-size:46px;font-family:var(--font-serif);color:var(--navy)}.consumption-input span{font-size:15px;font-weight:800;margin-bottom:9px}.discount-range{height:8px}.range-legend{display:flex;justify-content:space-between;margin:8px 0 34px;color:#73817e;font-size:8px;font-weight:800}.estimate strong{font-size:26px}.hero-stat strong{font-size:38px;white-space:nowrap}
 @media(max-width:800px){body{font-size:16px}.site-header{height:78px}.section{padding-top:88px;padding-bottom:88px}.intro-copy p,.plants-heading>p,.about-copy>p,.calculator-copy>p{font-size:16px}.calculator-card{padding:34px 24px}.discount-badge{margin:-34px -24px 30px;padding:22px 24px}.discount-badge strong{font-size:38px}.range-legend span:nth-child(even){display:none}.hero-stat strong{font-size:30px}}
 
-/* Refinamento premium e captação comercial */
+/* Refinamento premium e captaÃ§Ã£o comercial */
 :root{--ink:#0b2940;--cream:#f5f7f1}body{font-family:var(--font-sans),Arial,sans-serif;line-height:1.55}.hero h1,.section h2,.closing h2{letter-spacing:-.045em}.hero-copy{line-height:1.72}.section{padding-left:clamp(28px,8.5vw,150px);padding-right:clamp(28px,8.5vw,150px)}.calculator{background:linear-gradient(145deg,#fff 0%,#f6f9f4 100%)}.calculator-card{background:#fff;box-shadow:0 28px 80px rgba(5,42,69,.12);border:1px solid #e1e8e1}.discount-badge{border-radius:2px 2px 0 0}.discount-badge strong{color:#72df64}.consumption-options{display:grid;grid-template-columns:repeat(6,1fr);gap:6px;margin:12px 0 28px}.consumption-options button{border:1px solid #d4ddd7;background:#f8faf7;color:#52666b;padding:10px 4px;font-size:9px;font-weight:800;cursor:pointer;transition:.2s}.consumption-options button:hover,.consumption-options button.active{background:var(--navy);border-color:var(--navy);color:#fff}.high-consumption{display:grid;grid-template-columns:auto 1fr;gap:14px;align-items:center;background:#e7f7e5;border-left:3px solid var(--green);padding:14px 16px;margin:0 0 26px}.high-consumption span{font-size:8px;font-weight:900;letter-spacing:.13em;color:#16843b}.high-consumption p{font-size:11px;line-height:1.45;margin:0;color:#405f55}.lead-form{border-top:1px solid #d9e1dc;margin-top:6px;padding-top:26px}.form-heading{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px}.form-heading span,.lead-form label{font-size:9px;font-weight:900;letter-spacing:.12em;text-transform:uppercase}.form-heading p{font-size:10px;color:#758481;margin:0}.lead-form>label,.form-row label{display:block;margin:0 0 7px}.lead-form input,.lead-form select{width:100%;border:1px solid #ccd8d1;background:#fbfcfa;color:var(--ink);padding:14px 15px;outline:0;font-size:13px}.lead-form input:focus,.lead-form select:focus{border-color:var(--green);box-shadow:0 0 0 3px rgba(69,196,90,.12)}.form-row{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}.whatsapp-button{background:linear-gradient(100deg,#17aa52,#59d865);color:#062f27;margin-top:22px;font-size:11px}.hero-stat{background:rgba(2,37,63,.35);backdrop-filter:blur(10px);padding:15px 20px;border-left:2px solid var(--green)}.hero-stat strong{font-family:var(--font-sans);font-size:34px;letter-spacing:-.04em}.calculator-copy h2{font-size:clamp(50px,5.4vw,76px)}
 @media(max-width:800px){.consumption-options{grid-template-columns:repeat(3,1fr)}.form-row{grid-template-columns:1fr}.form-heading{align-items:flex-start;flex-direction:column;gap:4px}.calculator-copy h2{font-size:46px}.hero-stat{padding:11px 14px}.hero-stat strong{font-size:26px}}
 
@@ -28,18 +28,18 @@ body{font-size:17px}.site-header{height:96px}.nav{font-size:13px}.hero-copy{font
 .hero h1,.section h2,.closing h2,.hero h1 em,.section h2 em,.closing h2 em{font-family:var(--font-sans),Arial,sans-serif;font-style:normal;font-weight:700;letter-spacing:-.052em}.hero h1 em,.section h2 em,.closing h2 em{color:var(--green)}.discount-badge strong,.money-input input,.consumption-input input{font-family:var(--font-sans),Arial,sans-serif;font-weight:700}.eligibility-note{display:flex;gap:15px;align-items:center;background:#fff3dc;border-left:3px solid #f0aa34;padding:14px 16px;margin:6px 0 22px}.eligibility-note span{font-size:8px;font-weight:900;letter-spacing:.12em;color:#a66910}.eligibility-note p{font-size:11px;margin:0;color:#735d38}.drawer-shell{position:fixed;inset:0;z-index:100;pointer-events:none;visibility:hidden;transition:visibility .45s}.drawer-shell.open{pointer-events:auto;visibility:visible}.drawer-backdrop{position:absolute;inset:0;border:0;background:rgba(2,24,42,.58);opacity:0;transition:opacity .4s;backdrop-filter:blur(3px)}.drawer-shell.open .drawer-backdrop{opacity:1}.simulation-drawer{position:absolute;right:0;top:0;height:100%;width:min(560px,100%);background:#f9fbf8;padding:42px 44px;overflow-y:auto;transform:translateX(100%);transition:transform .5s cubic-bezier(.22,1,.36,1);box-shadow:-30px 0 80px rgba(3,32,53,.2)}.drawer-shell.open .simulation-drawer{transform:translateX(0)}.drawer-header{display:flex;justify-content:space-between;gap:20px;align-items:flex-start;border-bottom:1px solid #d8e2dc;padding-bottom:24px}.drawer-header span{font-size:9px;letter-spacing:.17em;font-weight:800;color:var(--green)}.drawer-header h2{font-size:38px;line-height:1.08;letter-spacing:-.04em;margin:8px 0 0}.drawer-close{width:42px;height:42px;border:1px solid #c9d5cf;background:transparent;color:var(--navy);font-size:28px;line-height:1;cursor:pointer}.drawer-intro{font-size:14px;line-height:1.7;color:#60716e;margin:24px 0}.drawer-summary{display:grid;grid-template-columns:repeat(3,1fr);background:var(--navy);color:#fff;padding:18px;margin-bottom:28px;gap:12px}.drawer-summary div{display:flex;flex-direction:column;gap:6px}.drawer-summary span{font-size:8px;color:#aac3cf}.drawer-summary strong{font-size:12px}.drawer-form{display:flex;flex-direction:column;gap:8px}.drawer-form label{font-size:9px;font-weight:800;letter-spacing:.11em;text-transform:uppercase;margin-top:10px}.drawer-form input,.drawer-form select{width:100%;border:1px solid #cad7d0;background:#fff;color:var(--ink);padding:15px;outline:0;font-size:14px}.drawer-form input:focus,.drawer-form select:focus{border-color:var(--green);box-shadow:0 0 0 3px rgba(69,196,90,.13)}.drawer-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}.unit-field{display:flex;align-items:center;border:1px solid #cad7d0;background:#fff}.unit-field input{border:0}.unit-field>span{font-size:11px;font-weight:800;padding:0 12px;color:#5b6d69;white-space:nowrap}.drawer-submit{background:linear-gradient(100deg,#15aa50,#65d968);color:#052f26;margin-top:26px}.privacy-note{display:block;color:#73827f;font-size:9px;line-height:1.55;margin-top:12px}.whatsapp-button{border:0;cursor:pointer}.lead-form{display:none}
 @media(max-width:600px){.simulation-drawer{padding:28px 22px}.drawer-header h2{font-size:31px}.drawer-summary{grid-template-columns:1fr}.drawer-row{grid-template-columns:1fr}}
 
-/* Revisão visual local: tipografia Outfit e simulador refinado */
+/* RevisÃ£o visual local: tipografia Outfit e simulador refinado */
 body{font-family:var(--font-sans),Arial,sans-serif;font-weight:400;letter-spacing:.005em}.nav,.button,.eyebrow,.step-top,.plant-type,.calculator-card>label,.drawer-form label{letter-spacing:.075em}.hero h1,.section h2,.closing h2,.hero h1 em,.section h2 em,.closing h2 em{font-family:var(--font-sans),Arial,sans-serif;line-height:1.08;letter-spacing:-.032em;font-weight:700}.calculator-copy h2{line-height:1.06;margin-bottom:24px}.calculator-copy h2 em{display:inline-block;margin-top:8px}.calculator-copy>p{line-height:1.8;max-width:650px}.calculator-card{border-radius:18px;overflow:hidden;border:1px solid rgba(7,76,119,.1);box-shadow:0 32px 90px rgba(6,49,76,.13);padding:54px}.discount-badge{margin:-54px -54px 40px;padding:30px 34px;background:linear-gradient(115deg,#073d70,#0860a3);border-radius:0}.discount-badge span{font-size:10px}.discount-badge small{font-size:11px}.discount-badge strong{font-size:52px}.consumption-input,.money-input{border-bottom:2px solid #c5d3cc;padding:12px 0 14px}.consumption-input input,.money-input input{font-size:50px;letter-spacing:-.03em}.range{appearance:none;height:7px;border-radius:99px;background:linear-gradient(90deg,var(--green) 0 25%,#d7dfda 25% 100%);outline:none}.range::-webkit-slider-thumb{appearance:none;width:22px;height:22px;border-radius:50%;background:var(--green);border:4px solid #fff;box-shadow:0 2px 8px rgba(9,66,72,.25);cursor:pointer}.consumption-options{gap:9px;margin-top:18px}.consumption-options button{border-radius:8px;padding:12px 5px;font-size:10px}.estimate{gap:12px;padding:24px 0;margin:30px 0}.estimate div{background:#f4f8f4;border:1px solid #e1e9e3;border-radius:10px;padding:18px}.estimate div+div{border-left:1px solid #e1e9e3;padding-left:18px}.estimate span{font-size:10px}.estimate strong{font-size:30px}.whatsapp-button{border-radius:10px;min-height:60px;font-size:12px}.calculator-card>small{font-size:9px;line-height:1.7;margin-top:18px}.trust-note p{font-size:12px}.hero-actions{gap:38px}.hero-actions .button{border-radius:8px}.text-link{letter-spacing:.07em}
 @media(max-width:800px){.calculator-card{padding:34px 24px;border-radius:14px}.discount-badge{margin:-34px -24px 32px;padding:25px 24px}.calculator-copy h2{line-height:1.1}.calculator-copy h2 em{margin-top:5px}.estimate{grid-template-columns:1fr 1fr}.estimate strong{font-size:23px}}
 
-/* Correção dos campos numéricos e da barra */
+/* CorreÃ§Ã£o dos campos numÃ©ricos e da barra */
 input[type="number"]{-moz-appearance:textfield;appearance:textfield}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}.money-input,.consumption-input{justify-content:flex-start;gap:12px}.money-input input,.consumption-input input{width:auto;max-width:280px;flex:0 1 280px;padding-left:0;padding-right:0}.money-input>span,.consumption-input>span{flex:0 0 auto}.range{width:100%;display:block}.calculator-card{min-height:0}.money-input{margin-bottom:6px}.estimate{margin-top:28px}
 @media(max-width:600px){.money-input input,.consumption-input input{max-width:220px;flex-basis:220px}}
 
-/* O campo da fatura já possui sua própria linha divisória. */
+/* O campo da fatura jÃ¡ possui sua prÃ³pria linha divisÃ³ria. */
 .estimate{border-top:0}
 
-/* Rodapé ampliado e com hierarquia visual mais clara */
+/* RodapÃ© ampliado e com hierarquia visual mais clara */
 footer{position:relative;overflow:hidden;padding-top:78px;padding-bottom:32px;grid-template-columns:1.35fr .8fr 1fr;gap:clamp(42px,6vw,90px);background:linear-gradient(135deg,#041d33 0%,#073d68 100%);border-top:4px solid var(--green)}
 footer:before{content:"G";position:absolute;right:-35px;bottom:-125px;font-size:360px;line-height:1;font-weight:800;color:rgba(255,255,255,.025);pointer-events:none}
 .footer-brand-block{position:relative;z-index:1;max-width:430px}.footer-brand{display:flex;align-items:center;gap:18px;width:max-content}.footer-brand>span{display:grid;place-items:center;width:58px;height:58px;border-radius:16px;background:linear-gradient(135deg,#0b64a1,var(--green));color:#fff;font-size:30px;font-weight:800;box-shadow:0 12px 30px rgba(0,0,0,.2)}.footer-brand div{display:flex;flex-direction:column;gap:3px}.footer-brand strong{font-size:18px;letter-spacing:.06em}.footer-brand small{font-size:14px;letter-spacing:.08em;color:#a9c6d2}.footer-brand-block p{font-size:14px;line-height:1.75;color:#a9c0ca;margin:24px 0 0;max-width:390px}
@@ -47,14 +47,54 @@ footer:before{content:"G";position:absolute;right:-35px;bottom:-125px;font-size:
 .footer-bottom{position:relative;z-index:1;padding-top:26px;margin-top:28px;border-top:1px solid rgba(194,222,230,.2);font-size:14px;line-height:1.6;color:#93adb8}
 @media(max-width:800px){footer{padding-top:58px;grid-template-columns:1fr;gap:42px}.footer-brand-block{max-width:100%}.footer-links,.footer-contact{max-width:420px}.footer-bottom{gap:12px}.footer-brand strong{font-size:17px}.footer-brand small,.footer-brand-block p,.footer-links,.footer-contact,.footer-links small,.footer-contact small,.footer-bottom{font-size:14px}}
 
-/* Texto do cabeçalho do simulador mais legível */
+/* Simulador mais compacto, preservando conforto de leitura */
+.calculator-card{width:100%;max-width:720px;justify-self:end;padding:42px;border-radius:16px}.discount-badge{margin:-42px -42px 32px;padding:23px 28px}.discount-badge strong{font-size:45px}.calculator-card>label{margin-top:22px}.consumption-input,.money-input{padding:8px 0 10px}.consumption-input input,.money-input input{font-size:43px}.discount-range{height:7px}.estimate{margin:23px 0;padding:18px 0}.estimate div{padding:15px}.estimate div+div{padding-left:15px}.estimate strong{font-size:26px}.whatsapp-button{min-height:54px;margin-top:18px}.calculator-card>small{margin-top:14px}
+@media(max-width:800px){.calculator-card{max-width:none;justify-self:stretch;padding:30px 22px}.discount-badge{margin:-30px -22px 28px;padding:21px 22px}.discount-badge strong{font-size:40px}.consumption-input input,.money-input input{font-size:40px}.estimate{margin:20px 0;padding:15px 0}}
+
+/* CorreÃ§Ã£o final de responsividade: estas regras precisam prevalecer sobre o desktop */
+@media(max-width:800px){
+  .calculator{padding-left:20px;padding-right:20px}
+  .calculator-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:42px;align-items:start}
+  .calculator-copy,.calculator-card{width:100%;min-width:0}
+  .calculator-copy h2{font-size:clamp(40px,11vw,54px);line-height:1.08;margin-bottom:20px}
+  .calculator-copy h2 br{display:none}
+  .calculator-copy h2 em{display:inline;margin-top:0}
+  .calculator-copy>p{font-size:16px;line-height:1.75;margin-bottom:24px}
+  .trust-note{margin-top:26px}
+  .calculator-card{max-width:640px;margin:0 auto;padding:30px 22px;border-radius:14px;overflow:hidden}
+  .discount-badge{grid-template-columns:minmax(0,1fr) auto;column-gap:16px;margin:-30px -22px 28px;padding:22px}
+  .discount-badge span{font-size:12px}.discount-badge small{font-size:12px}.discount-badge strong{font-size:40px}
+  .calculator-card>label{font-size:11px;margin-top:22px}
+  .consumption-input,.money-input{gap:8px}
+  .consumption-input input,.money-input input{width:100%;max-width:none;flex:1 1 auto;min-width:0;font-size:40px}
+  .estimate{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+  .estimate div,.estimate div+div{min-width:0;padding:14px;border-left:1px solid #e1e9e3}
+  .estimate strong{font-size:22px;white-space:nowrap}
+  .whatsapp-button{padding:16px 18px;font-size:11px;line-height:1.35}
+}
+@media(max-width:480px){
+  .calculator{padding-left:16px;padding-right:16px}
+  .calculator-grid{grid-template-areas:"texto" "simulador";grid-template-columns:minmax(0,1fr);gap:34px}
+  .calculator-copy{grid-area:texto;padding:0 6px}
+  .calculator-card{grid-area:simulador;width:calc(100% - 8px);margin:0 auto;padding:26px 18px}
+  .calculator-copy h2{font-size:40px}
+  .discount-badge{margin:-26px -18px 25px;padding:20px 18px}
+  .discount-badge strong{font-size:36px}
+  .estimate{grid-template-columns:1fr}
+  .estimate div+div{border-left:1px solid #e1e9e3;padding-left:14px}
+  .estimate strong{font-size:24px}
+  .simulation-drawer{width:100%;padding:24px 18px}
+}
+
+/* Texto do cabeÃ§alho do simulador mais legÃ­vel */
 .discount-badge span{font-size:14px;line-height:1.35;letter-spacing:.11em}.discount-badge small{font-size:14px;line-height:1.5;margin-top:9px;color:#d6e6ec}.discount-badge{column-gap:28px}
 @media(max-width:600px){.discount-badge span{font-size:12px}.discount-badge small{font-size:12px}}
 
-/* Leitura ampliada na apresentação da consultora */
+/* Leitura ampliada na apresentaÃ§Ã£o da consultora */
 .about-points p{font-size:15px;line-height:1.55;padding:19px 0;font-weight:600}.about-points span{font-size:12px;margin-right:24px}.about-simulation-button{font-size:13px;min-width:270px;padding:20px 24px}.about-simulation-button>span{font-size:17px}
 @media(max-width:600px){.about-points p{font-size:14px}.about-simulation-button{font-size:12px;min-width:100%}}
 
-/* Destaques renováveis mais legíveis */
+/* Destaques renovÃ¡veis mais legÃ­veis */
 .impact-strip{padding-top:30px;margin-top:48px;align-items:center}.impact-strip p{font-size:14px;line-height:1.5;font-weight:600;letter-spacing:.08em}.impact-strip span{font-size:16px;margin-right:12px}
 @media(max-width:800px){.impact-strip{gap:16px}.impact-strip p{font-size:13px;margin:0}}
+
